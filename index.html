@@ -1,6 +1,77 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+<style>
+body {
+  margin: 0;
+  font-family: "Noto Sans JP";
+  color: #4D4D4D;
+}
+
+header#global-header {
+  border-bottom: 1px solid #4D4D4D;
+  height: 48px;
+  padding: 8px;
+}
+
+div#three-questions {
+  background-color: #FFE200;
+  height: 400px;
+}
+
+.flexbox-container {
+    display: flex;
+}
+
+.flexbox-container-vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: thin;
+  padding: 0;
+  margin: 0;
+}
+
+.title-note {
+  font-size: x-small;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: small;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+}
+
+</style>
+</head>
 <body>
-OK GO!
+  <header id="global-header">
+    <img src="img/sitelogo.svg" alt="site logo" width="366px" height="40px" />
+  </header>
+
+  <div id="three-questions" class="flexbox-container-vertical-center">
+    <div class="flexbox-container">
+      <div>
+        <img src="img/3qlogo.svg" alt="3q logo" width="200px" height="185px" />
+      </div>
+      <div>
+        <p class="title-note">THREE QUESTIONS</p>
+        <p class="title">3つのしつもん</p>
+        <p class="subtitle"><a href="http://gamemarket.jp/game/3%E3%81%A4%E3%81%AE%E3%81%97%E3%81%A4%E3%82%82%E3%82%93/">GameMarket 2019 Spring</a></p>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
